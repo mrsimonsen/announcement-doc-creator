@@ -1,5 +1,5 @@
 import datetime, shutil, os
-WEEKS = 40
+WEEKS = 42
 start = int(input("Enter first announcemnt date in August:\n"))
 date = datetime.date(year = datetime.date.today().year, month=8, day=start)
 thank = datetime.date(year = date.year+1, month=11, day=int(input("What does does thanksgiving break start in November>\n")))
